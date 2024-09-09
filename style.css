@@ -1,0 +1,62 @@
+/*/media queries max and min width*/
+@media only screen and (max-width:360px){
+  body{ background-color:red;
+  color:white;
+}}
+/*/media queries max and min width*/
+
+@media only screen and (min-width:370px){
+  body{ background-color: yellow;
+}}
+@media only screen and (orientation:portrait){
+body{background-color:pink;
+}
+  
+}
+/*This property is same as max-width*/
+
+@media only screen and (width<=600px){
+body{background-color:black;
+}
+  
+}
+
+  /* nth child property*/
+#nth :nth-child(3){
+  background-color:green;
+}
+/* nth even*/
+#nth-even :nth-child(even){
+  background-color:green;
+
+  
+}
+/* nth-odd*/
+
+#nth-odd :nth-child(odd) {
+  background-color: green;
+}
+/* custom nth */
+#custom-nth :nth-child(8n+2){
+  background-color:blue;
+}
+#nth-last-child :nth-last-child(3){
+  color:red;
+}
+/* an optional */
+
+input:optional {
+  background-color: yellow;
+}
+
+/* css scroll bar style*/
+::-webkit-scrollbar{
+width:10px;
+}
+
+:-webkit-scrollbar-track{
+background-color: rgba(255,255, 255}
+:-webkit-scrollbar-thumb {
+background-color:red;
+border-radius: 10px;
+}
